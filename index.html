@@ -8,6 +8,65 @@
     <link rel="stylesheet" href="style/style.css"> 
 </head>
 <body>
+    <div class="wrapper">
+        <form class="forms">
+            <label for="user__name">
+                Name
+            </label>
+            <input type="text" id="user__name" placeholder="Katie" required>
+            <label for="user__surname">
+                Surname
+            </label>
+            <input type="text" id="user__surname" placeholder="Spenser" required>
+            <label for="DoB">
+                Date of birth
+            </label>
+            <input type="text" id="DoB" placeholder="dd/mm/yy" required>
+            <label>
+                Sex
+            </label>
+            <div class="user__sexinfo">
+                <input type="radio" id="female__sex" value="Female" name="sex">
+                <label for="female__sex">
+                    Female
+                </label>
+                <input type="radio" id="male__sex" value="Male" name="sex">
+                <label for="male__sex">
+                    Male
+                </label>
+            </div>
+            <label for="user__town">Town</label>
+            <select id="user__town">
+                <option value="None of the above">None of the above</option>
+                <option value="Kyiv">Kyiv</option>
+                <option value="Lviv">Lviv</option>
+                <option value="Odesa">Odesa</option>
+                <option value="Kyiv">Kyiv</option>
+                <option value="Dnipro">Dnipro</option>
+                <option value="Ternopil">Ternopil</option>
+            </select>
+            <label>Please select languages you know</label>
+            <div class="user__languageinfo">
+                <input type="checkbox" id="language1" name="Ukrainian" value="Ukrainian">
+                <label for="language1">
+                    Ukrainian
+                </label>
+                <input type="checkbox" id="language2" name="English" value="English">
+                <label for="language2">
+                    English
+                </label>
+                <input type="checkbox" id="language3" name="Russian" value="Russian">
+                <label for="language3">
+                    Russian
+                </label>
+                <input type="checkbox" id="language4" name="Polish" value="Polish">
+                <label for="language4">
+                    Polish
+                </label>
+            </div>
+            <button type="button">Save</button>
+        </form>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>

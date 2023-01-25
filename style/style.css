@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('GraphikLCG-Regular.ttf') format('truetype'),
+    url('GraphikLCG-Semibold.ttf') format('truetype');
+    font-weight: normal, 600; 
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background: radial-gradient(circle at 10% 20%, rgb(253, 239, 132) 0%, rgb(247, 198, 169) 54.2%, rgb(21, 186, 196) 100.3%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 16;
+    font-family: 'Graphik LCG'
+}
+
+.wrapper {
+    display: flex; 
+    padding-top: 150px;
+}
+
+.forms {
+    outline: 2px solid  rgb(21, 186, 196);
+    border-radius: 20px;
+    padding: 35px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#user__name, #user__surname, #DoB, #female__sex, #user__town, #language1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#language1 {
+    margin-bottom: 30px;
+}
+
+
+button[type="button"] {
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    background-color:rgb(21, 186, 196);
+    margin: auto;
+    width: 150px;
+}
+
+button[type="button"]:hover {
+    background-color: rgb(238, 175, 138);
+} 
+
+input[type="text"], #user__town {
+    width: 300px;
+    border-radius: 25px;
+    border: 2px solid pink;
+    padding: 8px;
+    font-family: 'Graphik LCG';
+}
+
+input[type="text"]:focus  {
+    background-color: lightblue;
+    outline: 2px solid rgb(13, 196, 13);
+}
+
+input[type="text"]:hover {
+    background-color: lightblue;
+}
+
+#user__town {
+    width: 320px;
+}
