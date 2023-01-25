@@ -1,5 +1,4 @@
 @font-face {
-    font-family: 'Graphik LCG';
     src: url('GraphikLCG-Regular.ttf') format('truetype'),
     url('GraphikLCG-Semibold.ttf') format('truetype');
     font-weight: normal, 600; 
@@ -39,7 +38,7 @@ body {
 }
 
 
-button[type="button"] {
+button[type="submit"] {
     border-radius: 20px;
     color: white;
     padding: 10px;
@@ -49,7 +48,7 @@ button[type="button"] {
     width: 150px;
 }
 
-button[type="button"]:hover {
+button[type="submit"]:hover {
     background-color: rgb(238, 175, 138);
 } 
 

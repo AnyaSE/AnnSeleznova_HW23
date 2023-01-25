@@ -13,15 +13,15 @@
             <label for="user__name">
                 Name
             </label>
-            <input type="text" id="user__name" placeholder="Katie" required>
+            <input name="name" type="text" id="user__name" placeholder="Katie" required>
             <label for="user__surname">
                 Surname
             </label>
-            <input type="text" id="user__surname" placeholder="Spenser" required>
+            <input name="surname" type="text" id="user__surname" placeholder="Spenser" required>
             <label for="DoB">
                 Date of birth
             </label>
-            <input type="text" id="DoB" placeholder="dd/mm/yy" required>
+            <input name="DoB" type="text" id="DoB" placeholder="dd/mm/yy" required>
             <label>
                 Sex
             </label>
@@ -36,7 +36,7 @@
                 </label>
             </div>
             <label for="user__town">Town</label>
-            <select id="user__town">
+            <select id="user__town" name="town">
                 <option value="None of the above">None of the above</option>
                 <option value="Kyiv">Kyiv</option>
                 <option value="Lviv">Lviv</option>
@@ -64,7 +64,7 @@
                     Polish
                 </label>
             </div>
-            <button type="button">Save</button>
+            <button type="submit">Save</button>
         </form>
     </div>
     <script src="js/main.js"></script>
