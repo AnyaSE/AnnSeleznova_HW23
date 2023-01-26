@@ -1,18 +1,9 @@
-@font-face {
-    font-family: 'Graphik LCG';
-    src: url('GraphikLCG-Regular.ttf') format('truetype'),
-    url('GraphikLCG-Semibold.ttf') format('truetype');
-    font-weight: normal, 600; 
-    font-style: normal;
-    font-display: swap;
-}
-
 body {
     background: radial-gradient(circle at 10% 20%, rgb(253, 239, 132) 0%, rgb(247, 198, 169) 54.2%, rgb(21, 186, 196) 100.3%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-size: 16;
-    font-family: 'Graphik LCG'
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .wrapper {
@@ -57,7 +48,7 @@ input[type="text"], #user__town {
     border-radius: 25px;
     border: 2px solid pink;
     padding: 8px;
-    font-family: 'Graphik LCG';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 input[type="text"]:focus  {
